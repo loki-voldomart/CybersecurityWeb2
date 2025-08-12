@@ -1,0 +1,17 @@
+{
+  "name": "cybersecurity-websocket-server",
+  "version": "1.0.0",
+  "description": "Real-time WebSocket server for cybersecurity monitoring",
+  "main": "websocket_server.js",
+  "scripts": {
+    "start": "node websocket_server.js",
+    "dev": "nodemon websocket_server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "@supabase/supabase-js": "^2.38.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
