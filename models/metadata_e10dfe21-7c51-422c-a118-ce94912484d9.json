@@ -1,0 +1,24 @@
+{
+  "algorithm": "isolation_forest",
+  "trained_at": "2025-08-14T17:08:59.750202",
+  "n_samples": 3,
+  "feature_names": [
+    "packet_size",
+    "duration",
+    "bytes_sent",
+    "bytes_received",
+    "protocol_hash",
+    "source_ip_hash",
+    "dest_ip_hash",
+    "port",
+    "hour",
+    "off_hours",
+    "connection_count",
+    "error_rate",
+    "retry_count",
+    "flags_count",
+    "bytes_ratio"
+  ],
+  "parameters": {},
+  "version": "1.0"
+}
