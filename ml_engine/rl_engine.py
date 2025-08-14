@@ -278,8 +278,8 @@ class CybersecurityRLEngine:
             'suggested_action': suggested_action,
             'confidence': float(confidence),
             'action_probabilities': action_probabilities,
-            'q_values': q_values.tolist(),
-            'state_representation': discrete_state,
+            'q_values': [float(x) for x in q_values],
+            'state_representation': [int(x) for x in discrete_state],
             'timestamp': datetime.now().isoformat()
         }
     
