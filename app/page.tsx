@@ -376,6 +376,9 @@ export default function CyberSecurityDashboard() {
           </Card>
         )
 
+      case "ml-ai":
+        return <MLDashboard />
+
       default:
         return (
           <>
