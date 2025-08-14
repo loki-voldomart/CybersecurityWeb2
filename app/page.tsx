@@ -608,6 +608,7 @@ export default function CyberSecurityDashboard() {
                 { id: "network", label: "Network", icon: Network },
                 { id: "defense", label: "Defense", icon: Shield },
                 { id: "analytics", label: "Analytics", icon: Eye },
+                { id: "ml-ai", label: "ML/AI Suite", icon: Brain },
               ].map(({ id, label, icon: Icon }) => (
                 <Button
                   key={id} // ensuring unique key is present
