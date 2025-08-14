@@ -2,6 +2,9 @@
 
 A comprehensive cybersecurity web application built with Next.js, designed to provide security tools, vulnerability assessments, and educational resources for cybersecurity professionals and enthusiasts.
 
+## prototype link
+https://secmodel-api.preview.emergentagent.com/
+
 ## 🚀 Project Status
 
 **Current State**: Foundation Setup ✅  
