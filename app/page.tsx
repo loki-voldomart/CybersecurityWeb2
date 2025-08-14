@@ -20,8 +20,11 @@ import {
   ChevronRight,
   Wifi,
   WifiOff,
+  Brain,
+  Bot,
 } from "lucide-react"
 import { useRealtimeThreats, useRealtimeStats, useRealtimeSystemStatus, useWebSocket } from "@/lib/websocket-client"
+import MLDashboard from "@/components/ml-dashboard"
 
 interface ThreatEvent {
   id: string
