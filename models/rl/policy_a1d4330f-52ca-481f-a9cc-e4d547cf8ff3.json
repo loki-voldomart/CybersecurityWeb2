@@ -1,0 +1,20 @@
+{
+  "name": "test_threat_response",
+  "trained_at": "2025-08-14T17:09:14.309235",
+  "episodes": 100,
+  "learning_rate": 0.1,
+  "discount_factor": 0.95,
+  "epsilon": 0.1,
+  "stats": {
+    "total_reward": 391.12225474434257,
+    "episodes_completed": 100,
+    "actions_taken": {
+      "block": 86,
+      "allow": 10,
+      "observe": 2,
+      "escalate": 2
+    },
+    "average_reward": 3.9112225474434257
+  },
+  "version": "1.0"
+}
